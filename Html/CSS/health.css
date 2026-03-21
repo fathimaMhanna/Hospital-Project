@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 0;
+    background: white;
+}
+
+body {
+    padding-top: 100px;
+}
+
+/* Top Bar */
+
+
+.top-bar {
+    background: #0b2c5f;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 50px;
+    font-size: 14px;
+}
+
+.contact span {
+    margin-right: 20px;
+}
+
+
+.btn-appoinment {
+
+    background: #1cc88a;
+    border: none;
+    padding: 8px 15px;
+    color: white;
+    cursor: pointer;
+
+}
+
+/* Navbar */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 15px;
+    border-bottom: 1px solid #ddd;
+    position: relative;
+    z-index: 1;
+}
+
+
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo img {
+    width: 70px;
+    height: 70px;
+}
+
+.logo h2 {
+    font-size: 24px;
+    color: #1cc88a;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 55px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #1cc88a;
+    font-size: 20px;
+}
+
+
+/* Banner Section */
+.banner {
+    height: 350px;
+    background-image: url("/Assets/Hospital-img/banner-hospital.jpg");
+
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/*  banner Content */
+.banner-content h1 {
+    font-size: 32px;
+    color: #1a2a4f;
+    margin-bottom: 10px;
+}
+
+.banner-content p {
+    color: #1a2a4f;
+    font-size: 14px;
+}
+
+/* filter button  */
+.filters {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.filters button {
+    border: none;
+    padding: 8px 15px;
+    margin: 5px;
+    background: #eee;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.filters .active {
+    background: #1cc88a;
+    color: white;
+}
+
+/* Image Card  */
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px 50px;
+}
+
+.card {
+    background: #fff;
+    text-align: center;
+    padding: 15px;
+    border-radius: 10px;
+    /* transition: 0.3s; */
+}
+
+.card img {
+    width: 100%;
+    /* height: 220px; */
+    border-radius: 10px;
+}
+
+.card h3 {
+    margin-top: 10px;
+}
+
+.card p {
+    color: gray;
+    font-size: 14px;
+}
+
+.footer {
+    background: #0b2c5f;
+    color: white;
+    text-align: center;
+
+    padding: 10px 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 14px;
+}
+
+.footer span {
+    color: #1cc88a;
+    font-weight: bold;
+}
