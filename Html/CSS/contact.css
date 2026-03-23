@@ -42,6 +42,17 @@ form textarea {
   border-radius: 3px;
 }
 
+form select {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  background: white;
+  color: #555;
+  cursor: pointer;
+}
+
 .row {
   display: flex;
   gap: 10px;
@@ -71,22 +82,14 @@ button:hover {
 }
 
 /* Image Section */
-.image-section {
+.image {
   flex:wrap;
   text-align: center;
 }
 
-.image-section img {
+.image img {
  width: 80%;
   height: auto;
 }
-form select {
-  width: 100%;
-  padding: 12px;
-  margin-bottom: 15px;
-  border: 1px solid #ddd;
-  border-radius: 3px;
-  background: white;
-  color: #555;
-  cursor: pointer;
-}
+
+

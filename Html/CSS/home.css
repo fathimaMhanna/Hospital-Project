@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+/* .container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+
+
+
+.logo {
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.logo span {
+  color: red;
+}
+
+nav {
+  text-align: right;
+}
+
+nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #333;
+} */
+
+
+.cont {
+  height: 80vh;
+
+  background: url("/Assets/Hospital-img/bg.jpg") no-repeat center right/cover;
+  
+  display: grid;
+  align-items: center;
+}
+
+
+.cont-content {
+  max-width: 500px;
+}
+.cont h1 {
+  font-size: 50px;
+  margin: 10px 0;
+}
+
+.small {
+  font-size: 18px;
+  font-style: italic;
+}
+
+
+
+.desc {
+  color: #666;
+  margin-bottom: 20px;
+}
+
+button {
+  background: #28a745;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  cursor: pointer;
+}
+
+/* MEDIA QUERIES */
+
+
+/* Tablet */
+@media (max-width: 768px) {
+  .cont {
+    background-position: center;
+    text-align: center;
+  }
+
+  .cont-content {
+    margin: auto;
+  }
+
+  nav {
+    display: none;
+  }
+}
+
+/* Mobile */
+@media (max-width: 576px) {
+  .cont h1 {
+    font-size: 32px;
+  }
+
+  .top-bar .container {
+    flex-direction: column;
+    text-align: center;
+  }
+}

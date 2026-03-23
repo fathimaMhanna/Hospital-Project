@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 :root {
     --main-blue: #3498db;
     --dark-grey: #333;
@@ -10,11 +15,11 @@
     padding: 0 20px;
 }
 
-.about-section {
+.about {
     padding: 60px 0;
 }
 
-.about-section h2 span {
+.about h2 span {
     color: var(--main-blue);
 }
 
@@ -32,11 +37,11 @@
     color: var(--light-grey);
 }
 
-.vision-mission h3 {
+.visio h3 {
     margin-top: 25px;
     color: var(--dark-grey);
 }
-.vision-mission p {
+.vision p {
     margin-top: 25px;
     color: var(--light-grey);
 }
