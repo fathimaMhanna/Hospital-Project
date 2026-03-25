@@ -4,50 +4,18 @@
   box-sizing: border-box;
 }
 
-
-
-/* .container {
-  width: 90%;
-  max-width: 1200px;
-  margin: auto;
-}
-
-
-
-
-.logo {
-  font-size: 26px;
-  font-weight: bold;
-}
-
-.logo span {
-  color: red;
-}
-
-nav {
-  text-align: right;
-}
-
-nav a {
-  margin-left: 20px;
-  text-decoration: none;
-  color: #333;
-} */
-
-
 .cont {
-  height: 80vh;
-
-  background: url("/Assets/Hospital-img/bg.jpg") no-repeat center right/cover;
-  
+  height: 690px;
+  background: url("/Assets/Hospital-img/bg.jpg") no-repeat  left/cover;
   display: grid;
   align-items: center;
 }
 
 
 .cont-content {
-  max-width: 500px;
+  max-width: auto;
 }
+
 .cont h1 {
   font-size: 50px;
   margin: 10px 0;
@@ -58,48 +26,47 @@ nav a {
   font-style: italic;
 }
 
-
-
 .desc {
   color: #666;
   margin-bottom: 20px;
 }
 
-button {
-  background: #28a745;
-  color: white;
-  border: none;
-  padding: 12px 25px;
-  cursor: pointer;
-}
-
-/* MEDIA QUERIES */
 
 
-/* Tablet */
+
 @media (max-width: 768px) {
   .cont {
+    height: 690px;
+    padding: 20px;
     background-position: center;
-    text-align: center;
   }
 
-  .cont-content {
-    margin: auto;
+  .cont h1 {
+    font-size: 30px;
   }
 
-  nav {
-    display: none;
+  .small {
+    font-size: 14px;
   }
+
+  .desc {
+    font-size: 14px;
+  }
+
+ 
 }
 
-/* Mobile */
 @media (max-width: 576px) {
   .cont h1 {
-    font-size: 32px;
+    font-size: 24px;
   }
 
-  .top-bar .container {
-    flex-direction: column;
-    text-align: center;
+  .small {
+    font-size: 12px;
+  }
+
+  button {
+    width: 100%;
   }
 }
+

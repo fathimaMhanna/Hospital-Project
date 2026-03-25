@@ -152,6 +152,7 @@ body {
 
 .card:hover {
   transform: translateY(-10px);
+  z-index: -1;
 }
 
 /* IMAGE */
@@ -191,19 +192,5 @@ body {
     font-weight: bold;
 }
 
-/* MEDIA QUERIES */
 
-/* Mobile */
-@media (max-width: 576px) {
-  .card-container {
-    grid-template-columns: 1fr;
-  }
-}
-
-/* Tablet */
-@media (max-width: 768px) {
-  .card-container {
-    grid-template-columns: repeat(3, 1fr);
-  }
-}
 
